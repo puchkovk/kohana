@@ -22,6 +22,18 @@ If you want to run tests across multiple modules it might be best creating a sep
 
 You can also specify a custom test suite loader (enter the path to your tests.php file) and/or a custom configuration file (enter the path to your phpunit.xml file)
 
+### PhpStorm 2018+
+
+0. Install PHPUnit
+
+1. Configure PHP interpreter (Settings|Preferences - Languages and Frameworks - PHP)
+
+2. Configure PHPUnit (Settings|Preferences - Languages and Frameworks - PHP - Test Frameworks)
+
+3. On Project panel, find your tests folder, rightclick it. Select "Run 'tests (PHPUnit)'".
+
+More detailed doc: [Testing with PHPUnit on JetBrains official website](https://www.jetbrains.com/help/phpstorm/enabling-php-unit-support.html)
+
 ## Looping shell
 
 If you're developing in a text editor such as textmate, vim, gedit etc. chances are phpunit support isn't natively supported by your editor.
